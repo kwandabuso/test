@@ -29,8 +29,7 @@ namespace test
 
             var des = new JsonDeserializer();
             var output = des.Deserialize<Dictionary<string,string>>(response);
-            //var result = output["first_name"];
-            //CreateFileIfMissing("kwanda", "buso", "9011115613083");
+
             foreach (KeyValuePair<string, string> item in output)
             {
                 var res = (item.Key.Equals("data") + "=>" + item.Value);
