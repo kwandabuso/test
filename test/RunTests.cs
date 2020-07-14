@@ -16,7 +16,7 @@ using RestSharp.Extensions;
 namespace test
 {
     [TestClass]
-    public class UnitTest1
+    public class RunTests
     {
         [TestMethod]
         public void TestMethod1()
